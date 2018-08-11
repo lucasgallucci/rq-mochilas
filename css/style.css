@@ -2,9 +2,14 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow:400,500,600,700");
 ul.colores {
   display: flex;
-  padding: 0; }
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%; }
   ul.colores li {
     flex: 1;
     heigth: 20px; }
@@ -31,12 +36,87 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Fjalla One; }
-
-h2.producto {
-  font-size: 15px; }
+  font-family: Archivo Narrow; }
 
 h4 {
   font-size: 12px; }
+
+.home-banners {
+  margin: 40px 0 0 0;
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+
+#catalogo {
+  align-items: flex-end; }
+  #catalogo .main-title {
+    margin: 30px 0;
+    color: #1D3557; }
+  #catalogo .un-producto {
+    margin-bottom: 15px;
+    position: relative;
+    padding: 20px; }
+    #catalogo .un-producto .imagen {
+      position: relative;
+      text-align: center; }
+      #catalogo .un-producto .imagen img {
+        max-height: 250px; }
+      #catalogo .un-producto .imagen .panel {
+        position: absolute;
+        display: flex;
+        bottom: 10px;
+        left: 10px;
+        flex-direction: column; }
+        #catalogo .un-producto .imagen .panel div {
+          width: 30px;
+          height: 30px;
+          border-radius: 5px;
+          font-size: 20px;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 10px; }
+          #catalogo .un-producto .imagen .panel div.mas-vendido {
+            background: #F26419; }
+          #catalogo .un-producto .imagen .panel div.nuevo {
+            background: #62929E; }
+          #catalogo .un-producto .imagen .panel div.portalaptop {
+            background: #343F3E; }
+        #catalogo .un-producto .imagen .panel.outline div.mas-vendido {
+          border: 1px solid #F26419;
+          background: rgba(255, 255, 255, 0.4);
+          color: #F26419; }
+        #catalogo .un-producto .imagen .panel.outline div.nuevo {
+          border: 1px solid #62929E;
+          background: rgba(255, 255, 255, 0.4);
+          color: #62929E; }
+        #catalogo .un-producto .imagen .panel.outline div.portalaptop {
+          border: 1px solid #343F3E;
+          background: rgba(255, 255, 255, 0.4);
+          color: #343F3E; }
+      #catalogo .un-producto .imagen h4.precio {
+        font-weight: 300;
+        color: white;
+        background: #E63946;
+        padding: 5px 10px;
+        display: inline-block;
+        float: right;
+        font-size: 15px;
+        right: 10px;
+        bottom: 10px;
+        position: absolute; }
+    #catalogo .un-producto .info {
+      position: relative;
+      min-height: 48px; }
+      #catalogo .un-producto .info h2 {
+        font-size: 18px;
+        font-weight: 300;
+        color: #333;
+        overflow: hidden;
+        margin: 10px 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical; }
 
 /*# sourceMappingURL=style.css.map */
