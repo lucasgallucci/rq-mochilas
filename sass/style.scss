@@ -149,7 +149,7 @@ h4{
 			}
 
 			h4.precio{
-				font-weight: 300;
+				font-weight: 700;
 				color: white;
 				background: $color1;
 				padding: 5px 10px;
@@ -159,6 +159,7 @@ h4{
 				right: 10px;
 			    bottom: 10px;
 			    position: absolute;
+			    border: 2px solid white;
 			}
 		}
 
