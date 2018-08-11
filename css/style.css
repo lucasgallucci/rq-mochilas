@@ -56,6 +56,10 @@ h4 {
     margin-bottom: 15px;
     position: relative;
     padding: 20px; }
+    #catalogo .un-producto.col-12 {
+      max-width: 270px;
+      margin-left: auto;
+      margin-right: auto; }
     #catalogo .un-producto .imagen {
       position: relative;
       text-align: center; }
@@ -109,7 +113,7 @@ h4 {
         border: 2px solid white; }
     #catalogo .un-producto .info {
       position: relative;
-      height: 55px;
+      height: 48px;
       overflow: hidden; }
       #catalogo .un-producto .info h2 {
         font-size: 18px;

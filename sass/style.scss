@@ -82,6 +82,7 @@ h4{
 
 #catalogo{
 	align-items: flex-end;
+
 	.main-title{
 		margin: 30px 0;
 		color: $color4;
@@ -91,6 +92,12 @@ h4{
 		margin-bottom: 15px;
 		position: relative;
 		padding: 20px;
+
+		&.col-12{
+			max-width: 270px;
+			margin-left: auto;
+    		margin-right: auto;
+		}
 
 		.imagen{
 			position: relative;
@@ -166,7 +173,7 @@ h4{
 
 		.info{
 			position: relative;
-			height: 55px;
+			height: 48px;
 			overflow: hidden;
 
 			h2{
