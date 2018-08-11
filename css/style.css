@@ -1,6 +1,7 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 ul.colores {
   display: flex;
   padding: 0; }
@@ -28,6 +29,12 @@ body {
   font-size: 14px;
   line-height: 1.625;
   -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Fjalla One; }
+
+h2.producto {
+  font-size: 15px; }
 
 h4 {
   font-size: 12px; }
