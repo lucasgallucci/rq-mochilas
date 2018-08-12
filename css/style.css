@@ -102,15 +102,27 @@ h4 {
       #catalogo .un-producto .imagen h4.precio {
         font-weight: 700;
         color: white;
-        background: #E63946;
+        background: #457B9D;
         padding: 5px 10px;
         display: inline-block;
         float: right;
         font-size: 15px;
         right: 10px;
-        bottom: 10px;
+        bottom: 40px;
         position: absolute;
-        border: 2px solid white; }
+        border: 2px solid white;
+        position: relative; }
+        #catalogo .un-producto .imagen h4.precio.oferta {
+          background: #00FDDC;
+          color: #333;
+          font-size: 16px; }
+          #catalogo .un-producto .imagen h4.precio.oferta:before {
+            content: "OFERTA";
+            display: block;
+            position: absolute;
+            top: -20px;
+            color: white;
+            text-shadow: -1px -1px 1px #000,   1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000; }
     #catalogo .un-producto .info {
       position: relative;
       height: 48px;
