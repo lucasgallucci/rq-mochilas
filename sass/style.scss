@@ -164,19 +164,21 @@ h4{
 				float: right;
 				font-size: 15px;
 				right: 10px;
-			    bottom: 40px;
+			    bottom: 10px;
 			    position: absolute;
 			    border: 2px solid white;
-			    position: relative;
+			   
 			    &.oferta{
-			    	background: $color1;
+			    	background: $color5;
 			    	color: #333;
 			    	font-size: 16px;
 			    	&:before{
 			    		content: "OFERTA";
 			    		display: block;
 			    		position: absolute;
-			    		top: -20px;
+			    		top: -22px;
+			    		left: 0;
+			    		font-size: 19px;
 			    		color: white;
 			    		text-shadow:
 					   -1px -1px 1px #000,  
@@ -191,15 +193,18 @@ h4{
 
 		.info{
 			position: relative;
-			height: 48px;
+			height: 45px;
 			overflow: hidden;
-
+			width: 100%;
+			border-top: 1px solid #dedede;
+			margin-top: 10px;
+			padding-top: 5px;
 			h2{
-				font-size: 18px;
+				font-size: 14px;
 				font-weight: 300;
 				color: #333;
 				margin: 10px 0;
-				display: -webkit-box;
+				text-transform: uppercase;
 			}
 		}
 	}
