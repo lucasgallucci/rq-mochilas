@@ -102,7 +102,7 @@ h4 {
       #catalogo .un-producto .imagen h4.precio {
         font-weight: 700;
         color: white;
-        background: #457B9D;
+        background: #E63946;
         padding: 5px 10px;
         display: inline-block;
         float: right;
@@ -113,7 +113,7 @@ h4 {
         border: 2px solid white;
         position: relative; }
         #catalogo .un-producto .imagen h4.precio.oferta {
-          background: #00FDDC;
+          background: #E63946;
           color: #333;
           font-size: 16px; }
           #catalogo .un-producto .imagen h4.precio.oferta:before {
