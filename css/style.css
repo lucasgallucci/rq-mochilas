@@ -9,10 +9,11 @@ ul.colores {
   position: fixed;
   bottom: 0;
   z-index: 1000;
-  width: 100%; }
+  width: 100%;
+  list-style: none; }
   ul.colores li {
     flex: 1;
-    heigth: 20px; }
+    height: 20px; }
     ul.colores li:nth-child(1) {
       background: #E63946; }
     ul.colores li:nth-child(2) {
@@ -27,6 +28,7 @@ ul.colores {
       background: #824C71; }
 
 body {
+  padding-top: 60px;
   font-family: Roboto,sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -34,6 +36,8 @@ body {
   font-size: 14px;
   line-height: 1.625;
   -webkit-font-smoothing: antialiased; }
+  body#producto {
+    padding-top: 80px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Archivo Narrow; }
@@ -138,5 +142,58 @@ h4 {
         color: #333;
         margin: 10px 0;
         text-transform: uppercase; }
+
+#producto-expandido .title {
+  margin-bottom: 20px; }
+  #producto-expandido .title h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    background: #00FDDC;
+    display: inline;
+    color: #1D3557;
+    box-shadow: 5px 0 0 #00FDDC, -5px 0 0 #00FDDC;
+    left: 5px;
+    position: relative; }
+#producto-expandido .pricing {
+  padding: 0;
+  list-style: none; }
+  #producto-expandido .pricing strong {
+    background: yellow;
+    padding: 0 3px; }
+#producto-expandido .specs {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 30px; }
+  #producto-expandido .specs li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center; }
+    #producto-expandido .specs li div {
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+      font-size: 20px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px; }
+    #producto-expandido .specs li.carrito div {
+      background: #F26419; }
+    #producto-expandido .specs li.nuevo div {
+      background: #62929E; }
+    #producto-expandido .specs li.portalaptop div {
+      background: #343F3E; }
+#producto-expandido .stats {
+  display: flex;
+  list-style: none;
+  padding: 0; }
+  #producto-expandido .stats li {
+    text-align: center;
+    margin-right: 15px; }
+    #producto-expandido .stats li img {
+      max-width: 50px; }
+    #producto-expandido .stats li small {
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
