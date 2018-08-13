@@ -234,12 +234,13 @@ h4{
 	.foto{
 		display: flex;
 		align-items: flex-start;
+		margin-bottom: 30px;
 		.thumbnails{
 			display: flex;
 			flex-direction: column;
 			list-style: none;
 			padding: 0;
-	
+
 			li{
 				width: 70px;
 				flex: 1;
