@@ -231,17 +231,26 @@ h4{
 		} 
 	}
 	
-
-	.thumbnails{
+	.foto{
 		display: flex;
-		div{
-			flex: 1;
-			margin-right: 10px;
-			&:last-child{
-				margin-right: 0;
+		align-items: flex-start;
+		.thumbnails{
+			display: flex;
+			flex-direction: column;
+			list-style: none;
+			padding: 0;
+			li{
+				width: 70px;
+				flex: 1;
+				margin-bottom: 10px;
+				&:last-child{
+					margin-right: 0;
+				}
 			}
 		}
+
 	}
+	
 
 	.pricing{
 		padding: 0;

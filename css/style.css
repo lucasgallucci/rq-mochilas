@@ -154,13 +154,20 @@ h4 {
     box-shadow: 5px 0 0 #00FDDC, -5px 0 0 #00FDDC;
     left: 5px;
     position: relative; }
-#producto-expandido .thumbnails {
-  display: flex; }
-  #producto-expandido .thumbnails div {
-    flex: 1;
-    margin-right: 10px; }
-    #producto-expandido .thumbnails div:last-child {
-      margin-right: 0; }
+#producto-expandido .foto {
+  display: flex;
+  align-items: flex-start; }
+  #producto-expandido .foto .thumbnails {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0; }
+    #producto-expandido .foto .thumbnails li {
+      width: 70px;
+      flex: 1;
+      margin-bottom: 10px; }
+      #producto-expandido .foto .thumbnails li:last-child {
+        margin-right: 0; }
 #producto-expandido .pricing {
   padding: 0;
   list-style: none; }
