@@ -258,4 +258,44 @@ footer {
   #resumen-carrito p {
     margin: 0; }
 
+#carrito-expandido .un-item {
+  margin-bottom: 30px;
+  align-items: streng; }
+  #carrito-expandido .un-item h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #457B9D;
+    font-weight: 700; }
+  #carrito-expandido .un-item > div {
+    border: 1px solid #dedede;
+    padding: 10px; }
+    #carrito-expandido .un-item > div h3 {
+      text-transform: uppercase;
+      font-size: 15px;
+      margin: 10px 0;
+      height: 33px;
+      overflow: hidden;
+      font-weight: 700px; }
+    #carrito-expandido .un-item > div ul {
+      padding-left: 0px;
+      list-style: none;
+      margin: 0; }
+      #carrito-expandido .un-item > div ul li {
+        font-size: 12px; }
+    #carrito-expandido .un-item > div hr {
+      margin-top: 3px;
+      margin-bottom: 3px; }
+    #carrito-expandido .un-item > div .btn {
+      margin-top: 10px; }
+#carrito-expandido .total {
+  background: #dedede;
+  border: none;
+  height: 100%; }
+  #carrito-expandido .total h1 {
+    font-weight: 300;
+    font-size: 40px; }
+    #carrito-expandido .total h1 small {
+      display: block; }
+
 /*# sourceMappingURL=style.css.map */
