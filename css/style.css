@@ -183,10 +183,9 @@ h4 {
   font-family: Archivo Narrow;
   font-weight: 700; }
   #producto-expandido .pricing strong {
-    background: #E63946;
+    background: yellow;
     padding: 0 3px;
-    font-weight: 300;
-    color: white; }
+    font-weight: 300; }
 #producto-expandido .specs {
   padding: 0;
   list-style: none;
