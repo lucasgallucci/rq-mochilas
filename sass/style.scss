@@ -84,6 +84,12 @@ h4{
 	border-bottom: 1px solid #ddd;
 }
 
+.divider{
+	height: 3px;
+	width: 100px;
+	background: $color4;
+	margin: 10px 0;
+}
 
 #catalogo{
 	align-items: flex-end;
