@@ -171,10 +171,16 @@ h4 {
         margin-right: 0; }
 #producto-expandido .pricing {
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Archivo Narrow;
+  font-weight: 700; }
   #producto-expandido .pricing strong {
-    background: yellow;
-    padding: 0 3px; }
+    background: #E63946;
+    padding: 0 3px;
+    font-weight: 300;
+    color: white; }
 #producto-expandido .specs {
   padding: 0;
   list-style: none;
