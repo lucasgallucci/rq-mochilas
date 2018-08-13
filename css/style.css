@@ -154,6 +154,13 @@ h4 {
     box-shadow: 5px 0 0 #00FDDC, -5px 0 0 #00FDDC;
     left: 5px;
     position: relative; }
+#producto-expandido .thumbnails {
+  display: flex; }
+  #producto-expandido .thumbnails div {
+    flex: 1;
+    margin-right: 10px; }
+    #producto-expandido .thumbnails div:last-child {
+      margin-right: 0; }
 #producto-expandido .pricing {
   padding: 0;
   list-style: none; }
@@ -195,5 +202,24 @@ h4 {
       max-width: 50px; }
     #producto-expandido .stats li small {
       text-transform: uppercase; }
+
+footer {
+  background: #1D3557;
+  padding: 50px 0 20px 0;
+  color: white;
+  margin-top: 50px;
+  border-top: 5px solid #457B9D; }
+  footer article {
+    margin-bottom: 50px; }
+    footer article h3 {
+      text-transform: uppercase;
+      font-size: 15px;
+      letter-spacing: 1px;
+      margin-bottom: 30px;
+      font-weight: 700; }
+    footer article input.form-control, footer article textarea.form-control, footer article input.form-control:focus, footer article textarea.form-control:focus {
+      color: white;
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.6); }
 
 /*# sourceMappingURL=style.css.map */
